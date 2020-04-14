@@ -6,13 +6,14 @@ Docker Exercise - An absolute freestyle project
 
 These instructions will enable you to run the tests intended for the files created here.
 
-### Prerequisites
+## Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
 Docker CE
 ```
+## Procedure
 
 ### Step one
 
@@ -49,7 +50,7 @@ docker run --name flask-test-app --network test-network -d flask-app
 docker run --name nginx-test-proxy --network test-network -d -p 9939:80 nginx-proxy
 ```
 
-## And coding style tests
+## Tests
 
 Visit localhost:9939
 
